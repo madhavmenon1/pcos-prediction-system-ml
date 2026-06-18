@@ -16,7 +16,7 @@ __file__
 MODEL_PATH = (
 BASE_DIR /
 "models" /
-"pcod_model.pkl"
+"pcos_model.pkl"
 )
 
 SCALER_PATH = (
@@ -56,7 +56,7 @@ BASE_DIR /
 
 "dataset" /
 
-"pcod.csv"
+"pcos.csv"
 
 )
 
@@ -172,13 +172,13 @@ print("\nPrediction Result:")
 if prediction[0] == 1:
 
     print(
-        "PCOD Detected"
+        "PCOS Detected"
     )
 
 else:
 
     print(
-        "No PCOD Detected"
+        "No PCOS Detected"
     )
 
 
