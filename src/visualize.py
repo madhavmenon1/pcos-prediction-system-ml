@@ -41,7 +41,7 @@ accuracy
 
 
 plt.title(
-"PCOD Model Accuracy Comparison"
+"PCOS Model Accuracy Comparison"
 )
 
 
@@ -79,7 +79,7 @@ BASE_DIR /
 
 "models" /
 
-"pcod_model.pkl"
+"pcos_model.pkl"
 
 )
 
