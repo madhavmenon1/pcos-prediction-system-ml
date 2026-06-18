@@ -1,6 +1,6 @@
-# PCOD Prediction System using Machine Learning
+# PCOS Prediction System using Machine Learning
 
-A Machine Learning based PCOD (Polycystic Ovarian Disease) Prediction System developed to predict the likelihood of PCOD using patient medical data and multiple classification algorithms.
+A Machine Learning based PCOS (Polycystic Ovarian Syndrome) Prediction System developed to predict the likelihood of PCOS using patient medical data and multiple classification algorithms.
 
 The system performs complete data preprocessing, model training, evaluation, prediction, and visualization.
 
@@ -8,7 +8,7 @@ The system performs complete data preprocessing, model training, evaluation, pre
 
 # Project Objective
 
-Develop a PCOD Prediction System that:
+Develop a PCOS Prediction System that:
 
 - Processes and cleans patient medical data
 - Handles missing and inconsistent values
@@ -16,7 +16,7 @@ Develop a PCOD Prediction System that:
 - Trains multiple machine learning models
 - Evaluates model performance
 - Selects and saves the best model
-- Predicts PCOD likelihood from new patient inputs
+- Predicts PCOS likelihood from new patient inputs
 - Visualizes model performance
 
 ---
@@ -24,7 +24,7 @@ Develop a PCOD Prediction System that:
 # Dataset Information
 
 Dataset Type:
-PCOD Medical Dataset
+PCOS Medical Dataset
 
 Dataset Shape:
 
@@ -43,15 +43,15 @@ Final Features Used:
 # Project Structure
 
 ```plaintext
-PCOD_PREDICTION_SYSTEM/
+PCOS_PREDICTION_SYSTEM/
 
 dataset/
 │
-└── pcod.csv
+└── pcos.csv
 
 models/
 │
-├── pcod_model.pkl
+├── pcos_model.pkl
 ├── scaler.pkl
 └── normalizer.pkl
 
@@ -127,7 +127,7 @@ Random Forest
 Load saved model:
 
 ```python
-pcod_model.pkl
+pcos_model.pkl
 ```
 
 Input:
@@ -138,7 +138,7 @@ Output:
 
 ```plaintext
 Prediction:
-PCOD Detected / No PCOD Detected
+PCOS Detected / No PCOS Detected
 
 Confidence:
 XX %
