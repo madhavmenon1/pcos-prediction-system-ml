@@ -1,0 +1,37 @@
+# Python
+
+__pycache__/
+*.pyc
+*.pyo
+
+
+# Virtual Environment
+
+venv/
+
+
+# Notebook
+
+.ipynb_checkpoints/
+
+
+# VS Code
+
+.vscode/
+
+
+# Generated files
+
+.dist/
+
+
+# System
+
+.DS_Store
+Thumbs.db
+
+
+# Optional large generated outputs
+
+visuals/
+
