@@ -19,7 +19,7 @@ BASE_DIR /
 
 "dataset" /
 
-"pcod.csv"
+"pcos.csv"
 
 )
 
