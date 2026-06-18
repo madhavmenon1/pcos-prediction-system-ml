@@ -172,7 +172,7 @@ best_model,
 
 MODEL_DIR /
 
-"pcod_model.pkl"
+"pcos_model.pkl"
 
 )
 
